@@ -32,7 +32,7 @@ int main (int argc, char * argv[]) {
     close(ofd);
     close(efd);
 // O resultado do wc (que seria disposto no terminal) vai ser escrito no saida.txt, porque o que era para ser escrito no terminal (stdout) foi redirecionado para o saida.txt
-    res = execlp ("wc", "wc", NULL);    //duvida: COMO SABEMOS QUE O wc VAI SER APLICADO AO /etc/passwd ?????? É por o etc/passwd ser o stdin ?
+    res = execlp ("wc", "wc", NULL);   
 
     return 0;
 }
