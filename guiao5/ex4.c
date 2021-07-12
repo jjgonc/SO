@@ -71,7 +71,7 @@ int main () {
 */
 
 
-//MANEIRA MAIS DIFICIL, POREM MAIS CORRETA (PORQUE??)
+//MANEIRA MAIS DIFICIL, POREM MAIS CORRETA
 //2 processos - 1 pipe
 //2 forks - 1 por cada caso
 
