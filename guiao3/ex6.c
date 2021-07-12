@@ -26,7 +26,7 @@ int mysystem (char * command) {
         i++;
     }
 
-    exec_args[i] = NULL;    // DUVIDA:: poderia ser o caracter \0 ?????
+    exec_args[i] = NULL;    // penso que tbm poderia ser o caracter \0 ?????
 
     //o filho criado faz um comando para que o programa nao termmine
     pid = fork();
