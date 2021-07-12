@@ -7,7 +7,7 @@
 #include <sys/wait.h>
 
 
-//EXPLICAR ESTE EXERCICIO MELHOR!!!!
+
 
 
 int mysystem (char * command) {
@@ -29,7 +29,7 @@ int mysystem (char * command) {
         i++;
     }
 
-    exec_args[i] = NULL;    // DUVIDA:: poderia ser o caratec \0 ?????
+    exec_args[i] = NULL;    // acho que tambem poderia ser o caratec \0
 
     //o filho criado faz o comando para que o programa nao termmine
     pid = fork();
