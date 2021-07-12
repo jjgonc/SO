@@ -14,8 +14,6 @@ neste caso so ha uma ordem de execuçao (so pode aparecer os printfs de uma mane
 
 neste caso, se o wait estivesse antes do codigo do pai, ocorreria uma deadlock pq o pai esta a espera do filho e o filho tem que esperar pelo pai
 
-not sure, mas neste caso vai executar primeiro o codigo do pai, para escrever no pipe e depois o do filho vai ler desse pipe
-DUVIDA:: É no write que o filho fica bloqueado a espera do pai???
 */
 
 
