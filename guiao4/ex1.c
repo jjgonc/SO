@@ -10,7 +10,7 @@
 2 para o std error
     */
 
-//DUVIDA: O QUE TEMOS QUE ESCREVER NO ERROS.TXT ????
+
 
 /*
 1º Fazer open do ficheiro que queremos e guardar o file descriptor
