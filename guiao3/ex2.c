@@ -4,8 +4,6 @@
 #include <sys/types.h>
 #include <sys/wait.h> //include onde se encontra o WEXITSTATUS, WIFEXITED, etc...
 
-//o que significa o return do wexitstatus dar 0 ???
-//se eu der _exit(valor_qualquer) pq nao fica esse valor_qualquer no WEXITSTATUS???? nao e suposto o wexitstatus guardar esse valor?
 
 int main (int argc, char *argv[]) {
     int status;
